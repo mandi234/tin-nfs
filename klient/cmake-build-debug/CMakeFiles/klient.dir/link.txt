@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/klient.dir/main.cpp.o CMakeFiles/klient.dir/auth.cpp.o CMakeFiles/klient.dir/send_sock_msg.cpp.o CMakeFiles/klient.dir/auth_msg.cpp.o  -o klient 

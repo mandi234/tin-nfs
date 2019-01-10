@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mandi/CLionProjects/klient/auth_msg.h
+proto.h
+/home/mandi/CLionProjects/klient/proto.h
+
+/home/mandi/CLionProjects/klient/main.cpp
+auth_msg.h
+/home/mandi/CLionProjects/klient/auth_msg.h
+
+/home/mandi/CLionProjects/klient/proto.h
+stdint.h
+-
+

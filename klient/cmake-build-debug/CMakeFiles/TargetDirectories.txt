@@ -1,0 +1,3 @@
+/home/mandi/CLionProjects/klient/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mandi/CLionProjects/klient/cmake-build-debug/CMakeFiles/klient.dir
+/home/mandi/CLionProjects/klient/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mandi/CLionProjects/kamil/main.cpp
+unistd.h
+-
+stdio.h
+-
+sys/socket.h
+-
+stdlib.h
+-
+netinet/in.h
+-
+string.h
+-
+thread
+-
+iostream
+-
+proto.h
+/home/mandi/CLionProjects/kamil/proto.h
+
+/home/mandi/CLionProjects/kamil/proto.h
+stdint.h
+-
+
