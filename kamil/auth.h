@@ -7,23 +7,15 @@
 #include <fstream>
 #include <string>
 #include <iostream>
+#include "proto.h"
+#include "user/user.h"
 
 
-void init(char *path)
-{
-    std::fstream file(path, std::fstream::in | std::fstream::out);
+void init(char *path);
 
-    char user_and_password[256];
-
-    while(file.getline(user_and_password, 256))
-    {
-        std::cout<<user_and_password<<std::endl;
-    }
-}
-
+uint32_t authorize(char *msg);
 
 
 
 
 #endif //KAMIL_AUTH_H
-

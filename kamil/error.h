@@ -9,7 +9,7 @@
 #define ENFSAUTH 1001
 #define ENFSPROTO 1002
 
-uint32_t errno_nfs;
+//uint32_t errno_nfs;
 
 
 
