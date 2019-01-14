@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2018.3.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /root/Downloads/clion-2018.3.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2018.3.3/bin/cmake/linux/bin/cmake -E remove -f
+RM = /root/Downloads/clion-2018.3.3/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mandi/CLionProjects/klient
+CMAKE_SOURCE_DIR = /root/tin-nfs/klient
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mandi/CLionProjects/klient/cmake-build-debug
+CMAKE_BINARY_DIR = /root/tin-nfs/klient/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/mandi/CLionProjects/klient/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/clion-2018.3.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/root/Downloads/clion-2018.3.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/clion-2018.3.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/root/Downloads/clion-2018.3.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mandi/CLionProjects/klient/cmake-build-debug/CMakeFiles /home/mandi/CLionProjects/klient/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/tin-nfs/klient/cmake-build-debug/CMakeFiles /root/tin-nfs/klient/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mandi/CLionProjects/klient/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/tin-nfs/klient/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -204,6 +204,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/klient.dir/build.make CMakeFiles/klient.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+open.o: open.cpp.o
+
+.PHONY : open.o
+
+# target to build an object file
+open.cpp.o:
+	$(MAKE) -f CMakeFiles/klient.dir/build.make CMakeFiles/klient.dir/open.cpp.o
+.PHONY : open.cpp.o
+
+open.i: open.cpp.i
+
+.PHONY : open.i
+
+# target to preprocess a source file
+open.cpp.i:
+	$(MAKE) -f CMakeFiles/klient.dir/build.make CMakeFiles/klient.dir/open.cpp.i
+.PHONY : open.cpp.i
+
+open.s: open.cpp.s
+
+.PHONY : open.s
+
+# target to generate assembly for a file
+open.cpp.s:
+	$(MAKE) -f CMakeFiles/klient.dir/build.make CMakeFiles/klient.dir/open.cpp.s
+.PHONY : open.cpp.s
+
+operation.o: operation.cpp.o
+
+.PHONY : operation.o
+
+# target to build an object file
+operation.cpp.o:
+	$(MAKE) -f CMakeFiles/klient.dir/build.make CMakeFiles/klient.dir/operation.cpp.o
+.PHONY : operation.cpp.o
+
+operation.i: operation.cpp.i
+
+.PHONY : operation.i
+
+# target to preprocess a source file
+operation.cpp.i:
+	$(MAKE) -f CMakeFiles/klient.dir/build.make CMakeFiles/klient.dir/operation.cpp.i
+.PHONY : operation.cpp.i
+
+operation.s: operation.cpp.s
+
+.PHONY : operation.s
+
+# target to generate assembly for a file
+operation.cpp.s:
+	$(MAKE) -f CMakeFiles/klient.dir/build.make CMakeFiles/klient.dir/operation.cpp.s
+.PHONY : operation.cpp.s
+
 send_sock_msg.o: send_sock_msg.cpp.o
 
 .PHONY : send_sock_msg.o
@@ -249,6 +303,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... open.o"
+	@echo "... open.i"
+	@echo "... open.s"
+	@echo "... operation.o"
+	@echo "... operation.i"
+	@echo "... operation.s"
 	@echo "... send_sock_msg.o"
 	@echo "... send_sock_msg.i"
 	@echo "... send_sock_msg.s"

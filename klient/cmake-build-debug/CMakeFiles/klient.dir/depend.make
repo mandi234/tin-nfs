@@ -4,6 +4,7 @@
 CMakeFiles/klient.dir/auth.cpp.o: ../auth.cpp
 CMakeFiles/klient.dir/auth.cpp.o: ../auth.h
 
+CMakeFiles/klient.dir/auth_msg.cpp.o: ../auth.h
 CMakeFiles/klient.dir/auth_msg.cpp.o: ../auth_msg.cpp
 CMakeFiles/klient.dir/auth_msg.cpp.o: ../auth_msg.h
 CMakeFiles/klient.dir/auth_msg.cpp.o: ../proto.h
@@ -11,7 +12,21 @@ CMakeFiles/klient.dir/auth_msg.cpp.o: ../send_sock_msg.h
 
 CMakeFiles/klient.dir/main.cpp.o: ../auth_msg.h
 CMakeFiles/klient.dir/main.cpp.o: ../main.cpp
+CMakeFiles/klient.dir/main.cpp.o: ../open.h
+CMakeFiles/klient.dir/main.cpp.o: ../operation.h
 CMakeFiles/klient.dir/main.cpp.o: ../proto.h
+
+CMakeFiles/klient.dir/open.cpp.o: ../auth.h
+CMakeFiles/klient.dir/open.cpp.o: ../open.cpp
+CMakeFiles/klient.dir/open.cpp.o: ../open.h
+CMakeFiles/klient.dir/open.cpp.o: ../proto.h
+CMakeFiles/klient.dir/open.cpp.o: ../send_sock_msg.h
+
+CMakeFiles/klient.dir/operation.cpp.o: ../auth.h
+CMakeFiles/klient.dir/operation.cpp.o: ../operation.cpp
+CMakeFiles/klient.dir/operation.cpp.o: ../operation.h
+CMakeFiles/klient.dir/operation.cpp.o: ../proto.h
+CMakeFiles/klient.dir/operation.cpp.o: ../send_sock_msg.h
 
 CMakeFiles/klient.dir/send_sock_msg.cpp.o: ../send_sock_msg.cpp
 CMakeFiles/klient.dir/send_sock_msg.cpp.o: ../send_sock_msg.h
