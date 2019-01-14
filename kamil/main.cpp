@@ -9,6 +9,8 @@
 #include <thread>
 #include <iostream>
 #include "proto.h"
+#include "user/user.h"
+
 #define PORT 8080
 
 void handle_client(int socket)
@@ -21,11 +23,22 @@ void handle_client(int socket)
         std::cout<<"CHUJ 1.5"<<std::endl;
         handle_message(buffer, valread);
     }
+
+    close(socket);
 }
 
 
 void start_server()
 {
+
+    //todo to be refactored - read from config file
+    User testUser{};
+    testUser.login = "kamil";
+    testUser.password = "testPassword";
+    UsersHolder::instance().add(testUser);
+
+
+
     int server_fd, new_socket, valread;
     struct sockaddr_in address;
     int opt = 1;
