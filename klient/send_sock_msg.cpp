@@ -4,10 +4,9 @@
 
 #include "send_sock_msg.h"
 
-int send_message(char *server_ip, uint16_t port, uint8_t *msg, uint32_t msg_len)
+int send_message_and_wait_for_response(char *server_ip, uint16_t port, uint8_t *msg, uint32_t msg_len, char *recvBuff)
 {
     int sockfd = 0, n = 0;
-    char recvBuff[1024];
     struct sockaddr_in serv_addr;
 
     memset(recvBuff, '0',sizeof(recvBuff));
@@ -36,14 +35,12 @@ int send_message(char *server_ip, uint16_t port, uint8_t *msg, uint32_t msg_len)
 
     send(sockfd, msg, msg_len, 0);
 
-//    while ( (n = read(sockfd, recvBuff, sizeof(recvBuff)-1)) > 0)
-//    {
-//        recvBuff[n] = 0;
-//        if(fputs(recvBuff, stdout) == EOF)
-//        {
-//            printf("\n Error : Fputs error\n");
-//        }
-//    }
+    read(sockfd, recvBuff, 1024);
+
+
+    //while ( (n = read(sockfd, *recvBuff, sizeof(*recvBuff)-1)) > 0)
+   // {
+   // }
 
 
     return 0;

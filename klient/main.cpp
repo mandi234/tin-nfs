@@ -2,5 +2,5 @@
 
 int main(int argc, char *argv[])
 {
-    mynfs_auth("127.0.0.1", 8080, "kamil", "testPassword");
+    mynfs_auth("127.0.0.1", 8080, "kamil", "dupa1");
 }

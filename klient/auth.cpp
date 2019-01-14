@@ -3,3 +3,4 @@
 //
 
 #include "auth.h"
+uint32_t global_token;

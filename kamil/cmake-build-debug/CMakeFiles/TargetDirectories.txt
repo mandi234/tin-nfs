@@ -1,3 +1,0 @@
-/home/mandi/CLionProjects/kamil/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/mandi/CLionProjects/kamil/cmake-build-debug/CMakeFiles/kamil.dir
-/home/mandi/CLionProjects/kamil/cmake-build-debug/CMakeFiles/edit_cache.dir

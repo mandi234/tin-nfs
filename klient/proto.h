@@ -52,10 +52,12 @@ struct RequestAuth {
 
 struct ResponseAuth {
     uint8_t msg_id;
+    uint32_t token;
     int32_t error;
 };
 
 struct RequestOpen {
+    uint32_t token;
     uint8_t msg_id;
     uint32_t user_id;
     uint8_t function_id;
@@ -74,6 +76,7 @@ struct ResponseOpen {
 };
 
 struct RequestOperation {
+    uint32_t token;
     uint8_t msg_id;
     uint8_t function_id;
     uint32_t descriptor;
