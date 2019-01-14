@@ -25,4 +25,5 @@ void mynfs_auth(char *host, uint16_t port, char *user, char *password) {
     std::cout << token << std::endl;
     global_token = token;
     global_port = port;
+    global_host = host;
 }

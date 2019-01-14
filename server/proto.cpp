@@ -45,7 +45,7 @@ uint32_t handle_message(char *msg, int len, char **resp, int *response_len)
             handle_open_response(msg, len);
             break;
         case MSG_REQUEST_OPERATION:
-            handle_operation_request(msg, len);
+            handle_operation_request(msg, len, resp, response_len);
             break;
         case MSG_RESPONSE_OPERATION:
             handle_operation_response(msg, len);

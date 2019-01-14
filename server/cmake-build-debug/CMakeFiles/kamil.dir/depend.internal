@@ -23,6 +23,7 @@ CMakeFiles/kamil.dir/operation.cpp.o
  /root/tin-nfs/server/error.h
  /root/tin-nfs/server/operation.cpp
  /root/tin-nfs/server/operation.h
+ /root/tin-nfs/server/proto.h
 CMakeFiles/kamil.dir/proto.cpp.o
  /root/tin-nfs/server/auth.h
  /root/tin-nfs/server/common/singleton.h

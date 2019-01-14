@@ -105,6 +105,12 @@
 		<Unit filename="/root/tin-nfs/klient/open.h">
 			<Option target="klient"/>
 		</Unit>
+		<Unit filename="/root/tin-nfs/klient/operation.cpp">
+			<Option target="klient"/>
+		</Unit>
+		<Unit filename="/root/tin-nfs/klient/operation.h">
+			<Option target="klient"/>
+		</Unit>
 		<Unit filename="/root/tin-nfs/klient/proto.h">
 			<Option target="klient"/>
 		</Unit>

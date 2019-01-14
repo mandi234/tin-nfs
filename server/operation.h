@@ -29,7 +29,7 @@
 #define OPERATION_MSG_RESPONSE_CLOSEDIR 25
 
 
-uint32_t handle_operation_request(char *msg, int len);
+uint32_t handle_operation_request(char *msg, int len, char **resp, int *response_len);
 uint32_t handle_operation_response(char *msg, int len);
 
 

@@ -22,6 +22,7 @@ CMakeFiles/kamil.dir/open.cpp.o: ../proto.h
 CMakeFiles/kamil.dir/operation.cpp.o: ../error.h
 CMakeFiles/kamil.dir/operation.cpp.o: ../operation.cpp
 CMakeFiles/kamil.dir/operation.cpp.o: ../operation.h
+CMakeFiles/kamil.dir/operation.cpp.o: ../proto.h
 
 CMakeFiles/kamil.dir/proto.cpp.o: ../auth.h
 CMakeFiles/kamil.dir/proto.cpp.o: ../common/singleton.h

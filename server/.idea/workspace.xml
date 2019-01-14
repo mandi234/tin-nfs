@@ -17,9 +17,7 @@
       <change beforePath="$PROJECT_DIR$/../klient/auth.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/auth.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../klient/auth.h" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/auth.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../klient/auth_msg.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/auth_msg.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/auth.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/auth.cpp.o" afterDir="false" />
@@ -30,23 +28,24 @@
       <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/open.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/open.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/klient" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/klient" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/klient.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/klient.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../klient/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../klient/proto.h" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/proto.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/auth.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/auth.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/open.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/open.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/operation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/operation.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/proto.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/proto.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/kamil" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/kamil" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/open.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/open.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/open.h" beforeDir="false" afterPath="$PROJECT_DIR$/open.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/operation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/operation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/operation.h" beforeDir="false" afterPath="$PROJECT_DIR$/operation.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proto.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/proto.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto.h" beforeDir="false" afterPath="$PROJECT_DIR$/proto.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="99" column="28" lean-forward="true" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+            <state relative-caret-position="333">
+              <caret line="96" column="38" lean-forward="true" selection-start-line="96" selection-start-column="38" selection-end-line="96" selection-end-column="38" />
               <folding>
                 <element signature="e#65#85#0" expanded="true" />
               </folding>
@@ -70,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/open.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="23" column="74" lean-forward="true" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
+            <state relative-caret-position="209">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="30" selection-end-column="43" />
               <folding>
                 <element signature="e#39#61#0" expanded="true" />
               </folding>
@@ -112,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/proto.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="420">
+              <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
               <folding>
                 <element signature="e#36#54#0" expanded="true" />
               </folding>
@@ -127,8 +126,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/operation.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="323">
+              <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+              <folding>
+                <element signature="e#40#62#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,8 +155,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proto.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="75" column="18" lean-forward="true" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+            <state relative-caret-position="276">
+              <caret line="89" column="23" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -185,10 +187,11 @@
         <option value="$PROJECT_DIR$/auth.cpp" />
         <option value="$PROJECT_DIR$/auth.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/proto.h" />
-        <option value="$PROJECT_DIR$/proto.cpp" />
         <option value="$PROJECT_DIR$/open.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/operation.cpp" />
+        <option value="$PROJECT_DIR$/proto.cpp" />
       </list>
     </option>
   </component>
@@ -272,12 +275,12 @@
       <updated>1547155398364</updated>
       <workItem from="1547155406668" duration="6369000" />
       <workItem from="1547460372629" duration="1232000" />
-      <workItem from="1547461720646" duration="14882000" />
+      <workItem from="1547461720646" duration="17865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22483000" />
+    <option name="totallyTimeSpent" value="25466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="26" width="1930" height="1035" extended-state="6" />
@@ -288,15 +291,15 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32929516" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48134327" visible="true" weight="0.3061674" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49307036" weight="0.39867842" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.478145" visible="true" weight="0.3061674" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49253732" weight="0.39867842" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4749467" weight="0.3270925" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.47121534" weight="0.3270925" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51865673" side_tool="true" visible="true" weight="0.3061674" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.521855" side_tool="true" visible="true" weight="0.3061674" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3278328" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -307,17 +310,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/open.cpp</url>
-          <line>14</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
@@ -434,25 +426,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/operation.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/open.h">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="99" column="28" lean-forward="true" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
-          <folding>
-            <element signature="e#65#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/auth.cpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -471,29 +446,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proto.cpp">
+    <entry file="file://$PROJECT_DIR$/open.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="209">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="30" selection-end-column="43" />
           <folding>
-            <element signature="e#36#54#0" expanded="true" />
+            <element signature="e#39#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proto.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="75" column="18" lean-forward="true" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+        <state relative-caret-position="276">
+          <caret line="89" column="23" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/open.cpp">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="23" column="74" lean-forward="true" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
+        <state relative-caret-position="333">
+          <caret line="96" column="38" lean-forward="true" selection-start-line="96" selection-start-column="38" selection-end-line="96" selection-end-column="38" />
           <folding>
-            <element signature="e#39#61#0" expanded="true" />
+            <element signature="e#65#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/operation.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+          <folding>
+            <element signature="e#40#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proto.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+          <folding>
+            <element signature="e#36#54#0" expanded="true" />
           </folding>
         </state>
       </provider>

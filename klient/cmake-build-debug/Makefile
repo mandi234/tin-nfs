@@ -231,6 +231,33 @@ open.cpp.s:
 	$(MAKE) -f CMakeFiles/klient.dir/build.make CMakeFiles/klient.dir/open.cpp.s
 .PHONY : open.cpp.s
 
+operation.o: operation.cpp.o
+
+.PHONY : operation.o
+
+# target to build an object file
+operation.cpp.o:
+	$(MAKE) -f CMakeFiles/klient.dir/build.make CMakeFiles/klient.dir/operation.cpp.o
+.PHONY : operation.cpp.o
+
+operation.i: operation.cpp.i
+
+.PHONY : operation.i
+
+# target to preprocess a source file
+operation.cpp.i:
+	$(MAKE) -f CMakeFiles/klient.dir/build.make CMakeFiles/klient.dir/operation.cpp.i
+.PHONY : operation.cpp.i
+
+operation.s: operation.cpp.s
+
+.PHONY : operation.s
+
+# target to generate assembly for a file
+operation.cpp.s:
+	$(MAKE) -f CMakeFiles/klient.dir/build.make CMakeFiles/klient.dir/operation.cpp.s
+.PHONY : operation.cpp.s
+
 send_sock_msg.o: send_sock_msg.cpp.o
 
 .PHONY : send_sock_msg.o
@@ -279,6 +306,9 @@ help:
 	@echo "... open.o"
 	@echo "... open.i"
 	@echo "... open.s"
+	@echo "... operation.o"
+	@echo "... operation.i"
+	@echo "... operation.s"
 	@echo "... send_sock_msg.o"
 	@echo "... send_sock_msg.i"
 	@echo "... send_sock_msg.s"

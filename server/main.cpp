@@ -94,7 +94,7 @@ void start_server()
 
 
 
-int main(int argc, char const *argv[]) 
+int main(int argc, char const *argv[])
 {
     srand(time(NULL));
     init_auth("config.txt");
