@@ -4,3 +4,4 @@
 
 #include "auth.h"
 uint32_t global_token;
+uint16_t global_port;

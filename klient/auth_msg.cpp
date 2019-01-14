@@ -23,4 +23,6 @@ void mynfs_auth(char *host, uint16_t port, char *user, char *password) {
     res_message = (ResponseAuth *) response;
     uint32_t token = ntohl(res_message->token);
     std::cout << token << std::endl;
+    global_token = token;
+    global_port = port;
 }

@@ -17,6 +17,7 @@ CMakeFiles/kamil.dir/main.cpp.o: ../user/user.h
 CMakeFiles/kamil.dir/open.cpp.o: ../error.h
 CMakeFiles/kamil.dir/open.cpp.o: ../open.cpp
 CMakeFiles/kamil.dir/open.cpp.o: ../open.h
+CMakeFiles/kamil.dir/open.cpp.o: ../proto.h
 
 CMakeFiles/kamil.dir/operation.cpp.o: ../error.h
 CMakeFiles/kamil.dir/operation.cpp.o: ../operation.cpp

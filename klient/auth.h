@@ -7,7 +7,7 @@
 #include <stdint.h>
 
 extern uint32_t global_token;
-
+extern uint16_t global_port;
 
 
 #endif //KLIENT_AUTH_H

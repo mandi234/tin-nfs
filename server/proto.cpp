@@ -15,7 +15,7 @@ uint32_t handle_message(char *msg, int len, char **resp, int *response_len)
     }
 
     auto msg_id = (uint8_t) msg[0];
-
+    std::cout << "MESSAGE ID " << (int)msg_id << std::endl;
     switch(msg_id) {
         case MSG_REQUEST_AUTH: {
             std::cout << "CHUJ AUTH" << std::endl;
@@ -38,7 +38,8 @@ uint32_t handle_message(char *msg, int len, char **resp, int *response_len)
         case MSG_RESPONSE_AUTH:
             break;
         case MSG_REQUEST_OPEN:
-            handle_open_request(msg, len);
+            std::cout<< "MSG_REQUEST OPEN" << std::endl;
+            handle_open_request(msg, len, resp, response_len);
             break;
         case MSG_RESPONSE_OPEN:
             handle_open_response(msg, len);

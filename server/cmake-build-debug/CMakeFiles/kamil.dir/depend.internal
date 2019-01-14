@@ -18,6 +18,7 @@ CMakeFiles/kamil.dir/open.cpp.o
  /root/tin-nfs/server/error.h
  /root/tin-nfs/server/open.cpp
  /root/tin-nfs/server/open.h
+ /root/tin-nfs/server/proto.h
 CMakeFiles/kamil.dir/operation.cpp.o
  /root/tin-nfs/server/error.h
  /root/tin-nfs/server/operation.cpp
