@@ -13,6 +13,34 @@
 #define MSG_REQUEST_OPERATION 4
 #define MSG_RESPONSE_OPERATION 5
 
+#define OPEN_MSG_REQUEST_OPEN 6
+#define OPEN_MSG_RESPONSE_OPEN 7
+#define OPEN_MSG_REQUEST_OPENDIR 8
+#define OPEN_MSG_RESPONSE_OPENDIR 9
+#define OPEN_MSG_REQUEST_UNLINK 10
+#define OPEN_MSG_RESPONSE_UNLINK 11
+
+#define OPERATION_MSG_REQUEST_READ 12
+#define OPERATION_MSG_RESPONSE_READ 13
+
+#define OPERATION_MSG_REQUEST_WRITE 14
+#define OPERATION_MSG_RESPONSE_WRITE 15
+
+#define OPERATION_MSG_REQUEST_LSEEK 16
+#define OPERATION_MSG_RESPONSE_LSEEK 17
+
+#define OPERATION_MSG_REQUEST_CLOSE 18
+#define OPERATION_MSG_RESPONSE_CLOSE 19
+
+#define OPERATION_MSG_REQUEST_FSTAT 20
+#define OPERATION_MSG_RESPONSE_FSTAT 21
+
+#define OPERATION_MSG_REQUEST_READDIR 22
+#define OPERATION_MSG_RESPONSE_READDIR 23
+
+#define OPERATION_MSG_REQUEST_CLOSEDIR 24
+#define OPERATION_MSG_RESPONSE_CLOSEDIR 25
+
 
 struct RequestAuth {
     uint8_t msg_id;
@@ -24,11 +52,13 @@ struct RequestAuth {
 
 struct ResponseAuth {
     uint8_t msg_id;
+    uint32_t token;
     int32_t error;
 };
 
 struct RequestOpen {
     uint8_t msg_id;
+    uint32_t token;
     uint32_t user_id;
     uint8_t function_id;
     uint32_t oflag;
@@ -47,6 +77,7 @@ struct ResponseOpen {
 
 struct RequestOperation {
     uint8_t msg_id;
+    uint32_t token;
     uint8_t function_id;
     uint32_t descriptor;
     uint32_t count;
