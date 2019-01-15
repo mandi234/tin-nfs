@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /root/Downloads/clion-2018.3.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/azablock/clion-2018.3.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /root/Downloads/clion-2018.3.3/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/azablock/clion-2018.3.3/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/tin-nfs/server
+CMAKE_SOURCE_DIR = /home/azablock/CLionProjects/tin-nfs/server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/tin-nfs/server/cmake-build-debug
+CMAKE_BINARY_DIR = /home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /root/tin-nfs/server/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/root/Downloads/clion-2018.3.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/azablock/clion-2018.3.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/root/Downloads/clion-2018.3.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/azablock/clion-2018.3.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/tin-nfs/server/cmake-build-debug/CMakeFiles /root/tin-nfs/server/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug/CMakeFiles /home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/tin-nfs/server/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -204,6 +204,33 @@ open.cpp.s:
 	$(MAKE) -f CMakeFiles/kamil.dir/build.make CMakeFiles/kamil.dir/open.cpp.s
 .PHONY : open.cpp.s
 
+open_handlers/open_msg_handler.o: open_handlers/open_msg_handler.cpp.o
+
+.PHONY : open_handlers/open_msg_handler.o
+
+# target to build an object file
+open_handlers/open_msg_handler.cpp.o:
+	$(MAKE) -f CMakeFiles/kamil.dir/build.make CMakeFiles/kamil.dir/open_handlers/open_msg_handler.cpp.o
+.PHONY : open_handlers/open_msg_handler.cpp.o
+
+open_handlers/open_msg_handler.i: open_handlers/open_msg_handler.cpp.i
+
+.PHONY : open_handlers/open_msg_handler.i
+
+# target to preprocess a source file
+open_handlers/open_msg_handler.cpp.i:
+	$(MAKE) -f CMakeFiles/kamil.dir/build.make CMakeFiles/kamil.dir/open_handlers/open_msg_handler.cpp.i
+.PHONY : open_handlers/open_msg_handler.cpp.i
+
+open_handlers/open_msg_handler.s: open_handlers/open_msg_handler.cpp.s
+
+.PHONY : open_handlers/open_msg_handler.s
+
+# target to generate assembly for a file
+open_handlers/open_msg_handler.cpp.s:
+	$(MAKE) -f CMakeFiles/kamil.dir/build.make CMakeFiles/kamil.dir/open_handlers/open_msg_handler.cpp.s
+.PHONY : open_handlers/open_msg_handler.cpp.s
+
 operation.o: operation.cpp.o
 
 .PHONY : operation.o
@@ -303,6 +330,9 @@ help:
 	@echo "... open.o"
 	@echo "... open.i"
 	@echo "... open.s"
+	@echo "... open_handlers/open_msg_handler.o"
+	@echo "... open_handlers/open_msg_handler.i"
+	@echo "... open_handlers/open_msg_handler.s"
 	@echo "... operation.o"
 	@echo "... operation.i"
 	@echo "... operation.s"

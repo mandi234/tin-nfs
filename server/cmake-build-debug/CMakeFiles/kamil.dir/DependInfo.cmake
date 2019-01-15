@@ -4,12 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/root/tin-nfs/server/auth.cpp" "/root/tin-nfs/server/cmake-build-debug/CMakeFiles/kamil.dir/auth.cpp.o"
-  "/root/tin-nfs/server/main.cpp" "/root/tin-nfs/server/cmake-build-debug/CMakeFiles/kamil.dir/main.cpp.o"
-  "/root/tin-nfs/server/open.cpp" "/root/tin-nfs/server/cmake-build-debug/CMakeFiles/kamil.dir/open.cpp.o"
-  "/root/tin-nfs/server/operation.cpp" "/root/tin-nfs/server/cmake-build-debug/CMakeFiles/kamil.dir/operation.cpp.o"
-  "/root/tin-nfs/server/proto.cpp" "/root/tin-nfs/server/cmake-build-debug/CMakeFiles/kamil.dir/proto.cpp.o"
-  "/root/tin-nfs/server/user/user.cpp" "/root/tin-nfs/server/cmake-build-debug/CMakeFiles/kamil.dir/user/user.cpp.o"
+  "/home/azablock/CLionProjects/tin-nfs/server/auth.cpp" "/home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug/CMakeFiles/kamil.dir/auth.cpp.o"
+  "/home/azablock/CLionProjects/tin-nfs/server/main.cpp" "/home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug/CMakeFiles/kamil.dir/main.cpp.o"
+  "/home/azablock/CLionProjects/tin-nfs/server/open.cpp" "/home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug/CMakeFiles/kamil.dir/open.cpp.o"
+  "/home/azablock/CLionProjects/tin-nfs/server/open_handlers/open_msg_handler.cpp" "/home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug/CMakeFiles/kamil.dir/open_handlers/open_msg_handler.cpp.o"
+  "/home/azablock/CLionProjects/tin-nfs/server/operation.cpp" "/home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug/CMakeFiles/kamil.dir/operation.cpp.o"
+  "/home/azablock/CLionProjects/tin-nfs/server/proto.cpp" "/home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug/CMakeFiles/kamil.dir/proto.cpp.o"
+  "/home/azablock/CLionProjects/tin-nfs/server/user/user.cpp" "/home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug/CMakeFiles/kamil.dir/user/user.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -16,14 +16,14 @@
 
 void handle_client(int socket)
 {
-    std::cout<<"CHUJ 1.25"<<std::endl;
+    std::cout<<"TEST 1.25"<<std::endl;
     ssize_t valread;
     char buffer[4096];
     char *response;
     int response_len;
     valread = read(socket, buffer, 4096);
 
-    std::cout<<"CHUJ 1.5"<<std::endl;
+    std::cout<<"TEST 1.5"<<std::endl;
     handle_message(buffer, valread, &response, &response_len);
 
     send(socket, response, response_len, 0);
@@ -35,15 +35,6 @@ void handle_client(int socket)
 
 void start_server()
 {
-
-    //todo to be refactored - read from config file
-    User testUser{};
-    testUser.login = "server";
-    testUser.password = "testPassword";
-    UsersHolder::instance().add(testUser);
-
-
-
     int server_fd, new_socket, valread;
     struct sockaddr_in address;
     int opt = 1;

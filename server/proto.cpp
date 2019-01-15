@@ -18,7 +18,7 @@ uint32_t handle_message(char *msg, int len, char **resp, int *response_len)
     std::cout << "MESSAGE ID " << (int)msg_id << std::endl;
     switch(msg_id) {
         case MSG_REQUEST_AUTH: {
-            std::cout << "CHUJ AUTH" << std::endl;
+            std::cout << "TEST AUTH" << std::endl;
             uint32_t token;
             token = authorize(msg);
             auto *response_auth = (ResponseAuth *) malloc(sizeof(ResponseAuth));
