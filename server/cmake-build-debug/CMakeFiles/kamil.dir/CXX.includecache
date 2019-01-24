@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/tin-nfs/server/operation_handlers/operation_msg_handler.cpp
+operation_msg_handler.h
+/root/tin-nfs/server/operation_handlers/operation_msg_handler.h
+
+/root/tin-nfs/server/operation_handlers/operation_msg_handler.h
+iostream
+-
+netinet/in.h
+-
+unistd.h
+-
+cstring
+-
+dirent.h
+-
+../proto.h
+/root/tin-nfs/server/proto.h
+
+/root/tin-nfs/server/proto.h
+stdint.h
+-
+
