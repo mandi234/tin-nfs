@@ -7,8 +7,8 @@
 #include "proto.h"
 #include "send_sock_msg.h"
 #include "auth.h"
-int mynfs_read(int fd, void *buf, int count)
-{
+
+int mynfs_read(int fd, void *buf, int count) {
     RequestOperation req_message;
     ResponseOperation *res_message;
     char response[4096];
@@ -22,7 +22,7 @@ int mynfs_read(int fd, void *buf, int count)
 
     res_message = (ResponseOperation *) response;
 
-    std::cout << "RECEIVED READ RESPONSE - NICE ! " << std::endl;
+    std::cout << "RECEIVED mynfs_read RESPONSE !" << std::endl;
 
     //std::cout<<res_message->buf << std::endl;
 

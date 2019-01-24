@@ -6,6 +6,7 @@
 #define KAMIL_OPEN_H
 
 #include <stdint.h>
+#include "./open_handlers/open_msg_handler.h"
 
 #define OPEN_MSG_REQUEST_OPEN 6
 #define OPEN_MSG_RESPONSE_OPEN 7
