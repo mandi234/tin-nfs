@@ -13,7 +13,7 @@
 
 int main(int argc, char *argv[])
 {
-    char result_buf[1024];
+    char result_buf[16796];
     char readdir_result_buf[1024];
     char write_result_buf[1024];
 
@@ -28,8 +28,8 @@ int main(int argc, char *argv[])
     std::cout << "configFd: " << configFd;
 
 
-    mynfs_read(configFd, result_buf, 1024);
-    result_buf[1023] = '\0';
+    mynfs_read(configFd, result_buf, 16796);
+
     std::cout << result_buf << std::endl;
     //OPEN DIR
     //fixme leci -1 (juz w open_msg_handler.cpp (serwer))

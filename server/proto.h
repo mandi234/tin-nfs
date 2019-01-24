@@ -43,6 +43,8 @@ uint32_t handle_message(char *msg, int len, char **resp, int *response_len);
 #define OPERATION_MSG_REQUEST_CLOSEDIR 24
 #define OPERATION_MSG_RESPONSE_CLOSEDIR 25
 
+#define OPERATION_MSG_RESPONSE_END_RESPONSE 26
+
 
 struct RequestAuth {
     uint8_t msg_id;
@@ -92,7 +94,7 @@ struct ResponseOperation {
     uint8_t msg_id;
     int32_t error;
     uint32_t buf_len;
-    uint8_t buf[1024];
+    uint8_t buf[];
 };
 
 

@@ -20,7 +20,7 @@ int mynfs_open (char *host, char *path, int oflag, int mode) {
     req_message.mode = htonl(mode);
     req_message.token = global_token;
 
-    send_message_and_wait_for_response(host, global_port, (uint8_t *) &req_message, sizeof(req_message), response);
+    send_message_and_wait_for_response(host, global_port, (uint8_t *) &req_message, sizeof(req_message), response, sizeof(ResponseOpen));
 
     res_message = (ResponseOpen *) response;
 
@@ -41,7 +41,7 @@ int mynfs_opendir(char *host, char *path, int oflag, int mode) {
     req_message.mode = htonl(mode);
     req_message.token = global_token;
 
-    send_message_and_wait_for_response(host, global_port, (uint8_t *) &req_message, sizeof(req_message), response);
+    send_message_and_wait_for_response(host, global_port, (uint8_t *) &req_message, sizeof(req_message), response, 4096);
 
     res_message = (ResponseOpen *) response;
 

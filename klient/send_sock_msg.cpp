@@ -3,13 +3,12 @@
 //
 
 #include "send_sock_msg.h"
-
-int send_message_and_wait_for_response(char *server_ip, uint16_t port, uint8_t *msg, uint32_t msg_len, char *recvBuff)
+#include <limits.h>
+int send_message_and_wait_for_response(char *server_ip, uint16_t port, uint8_t *msg, uint32_t msg_len, char *recvBuff, uint32_t expected_response_size)
 {
     int sockfd = 0, n = 0;
     struct sockaddr_in serv_addr;
 
-    memset(recvBuff, '0',sizeof(recvBuff));
     if((sockfd = socket(AF_INET, SOCK_STREAM, 0)) < 0)
     {
         printf("\n Error : Could not create socket \n");
@@ -35,12 +34,8 @@ int send_message_and_wait_for_response(char *server_ip, uint16_t port, uint8_t *
 
     send(sockfd, msg, msg_len, 0);
 
-    read(sockfd, recvBuff, 1024);
+    read(sockfd, recvBuff, expected_response_size);
 
-
-    //while ( (n = read(sockfd, *recvBuff, sizeof(*recvBuff)-1)) > 0)
-   // {
-   // }
 
 
     return 0;

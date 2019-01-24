@@ -14,6 +14,6 @@
 #ifndef KLIENT_SEND_SOCK_MSG_H
 #define KLIENT_SEND_SOCK_MSG_H
 
-int send_message_and_wait_for_response(char *server_ip, uint16_t port, uint8_t *msg, uint32_t msg_len, char *recvBuff);
+int send_message_and_wait_for_response(char *server_ip, uint16_t port, uint8_t *msg, uint32_t msg_len, char *recvBuff, uint32_t expected_response_size);
 
 #endif //KLIENT_SEND_SOCK_MSG_H

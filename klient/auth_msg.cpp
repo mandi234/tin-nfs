@@ -9,7 +9,7 @@
 void mynfs_auth(char *host, uint16_t port, char *user, char *password) {
     RequestAuth req_message;
     ResponseAuth *res_message;
-    char response[4096];
+    char response[sizeof(ResponseAuth)];
     req_message.msg_id = MSG_REQUEST_AUTH;
     strcpy((char *) req_message.login, user);
     strcpy((char *) req_message.password, password);
@@ -18,7 +18,7 @@ void mynfs_auth(char *host, uint16_t port, char *user, char *password) {
 
     req_message.password_len = htonl((uint32_t) strlen(password));
 
-    send_message_and_wait_for_response(host, port, (uint8_t *) &req_message, sizeof(req_message), response);
+    send_message_and_wait_for_response(host, port, (uint8_t *) &req_message, sizeof(req_message), response, sizeof(ResponseAuth));
 
     res_message = (ResponseAuth *) response;
     uint32_t token = ntohl(res_message->token);
