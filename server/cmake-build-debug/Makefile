@@ -258,6 +258,33 @@ operation.cpp.s:
 	$(MAKE) -f CMakeFiles/kamil.dir/build.make CMakeFiles/kamil.dir/operation.cpp.s
 .PHONY : operation.cpp.s
 
+operation_handlers/operation_msg_handler.o: operation_handlers/operation_msg_handler.cpp.o
+
+.PHONY : operation_handlers/operation_msg_handler.o
+
+# target to build an object file
+operation_handlers/operation_msg_handler.cpp.o:
+	$(MAKE) -f CMakeFiles/kamil.dir/build.make CMakeFiles/kamil.dir/operation_handlers/operation_msg_handler.cpp.o
+.PHONY : operation_handlers/operation_msg_handler.cpp.o
+
+operation_handlers/operation_msg_handler.i: operation_handlers/operation_msg_handler.cpp.i
+
+.PHONY : operation_handlers/operation_msg_handler.i
+
+# target to preprocess a source file
+operation_handlers/operation_msg_handler.cpp.i:
+	$(MAKE) -f CMakeFiles/kamil.dir/build.make CMakeFiles/kamil.dir/operation_handlers/operation_msg_handler.cpp.i
+.PHONY : operation_handlers/operation_msg_handler.cpp.i
+
+operation_handlers/operation_msg_handler.s: operation_handlers/operation_msg_handler.cpp.s
+
+.PHONY : operation_handlers/operation_msg_handler.s
+
+# target to generate assembly for a file
+operation_handlers/operation_msg_handler.cpp.s:
+	$(MAKE) -f CMakeFiles/kamil.dir/build.make CMakeFiles/kamil.dir/operation_handlers/operation_msg_handler.cpp.s
+.PHONY : operation_handlers/operation_msg_handler.cpp.s
+
 proto.o: proto.cpp.o
 
 .PHONY : proto.o
@@ -336,6 +363,9 @@ help:
 	@echo "... operation.o"
 	@echo "... operation.i"
 	@echo "... operation.s"
+	@echo "... operation_handlers/operation_msg_handler.o"
+	@echo "... operation_handlers/operation_msg_handler.i"
+	@echo "... operation_handlers/operation_msg_handler.s"
 	@echo "... proto.o"
 	@echo "... proto.i"
 	@echo "... proto.s"
