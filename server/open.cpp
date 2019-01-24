@@ -16,10 +16,10 @@ uint32_t handle_open_request(char *msg, int len, char **resp, int *response_len)
 
     switch(request_open->function_id) {
         case OPEN_MSG_REQUEST_OPEN:
-            OpenMsgHandler::openFile(request_open, len, resp, response_len);
+            openMsgHandler.openFile(request_open, len, resp, response_len);
             break;
         case OPEN_MSG_REQUEST_OPENDIR:
-            OpenMsgHandler::openDir(request_open, len, resp, response_len);
+            openMsgHandler.openDir(request_open, len, resp, response_len);
             break;
         case OPEN_MSG_REQUEST_UNLINK:
             break;

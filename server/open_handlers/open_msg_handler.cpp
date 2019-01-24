@@ -24,8 +24,10 @@ void OpenMsgHandler::openFile(RequestOpen *request_open, int len, char **resp, i
 }
 
 void OpenMsgHandler::openDir(RequestOpen *request_open, int len, char **resp, int *response_len) {
-    auto dir = opendir((const char *) request_open->path);
-    int dirFd = dirfd(dir);
+    auto dirp = opendir((const char *) request_open->path);
+    int dirFd = dirfd(dirp);
+
+    DirpHolder::instance().add(dirFd, dirp);
 
     auto *response_open = (ResponseOpen *) malloc(sizeof(ResponseOpen));
 

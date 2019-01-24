@@ -8,12 +8,18 @@ CMakeFiles/kamil.dir/auth.cpp.o: ../error.h
 CMakeFiles/kamil.dir/auth.cpp.o: ../proto.h
 CMakeFiles/kamil.dir/auth.cpp.o: ../user/user.h
 
+CMakeFiles/kamil.dir/dirp/dirp_holder.cpp.o: ../common/singleton.h
+CMakeFiles/kamil.dir/dirp/dirp_holder.cpp.o: ../dirp/dirp_holder.cpp
+CMakeFiles/kamil.dir/dirp/dirp_holder.cpp.o: ../dirp/dirp_holder.h
+
 CMakeFiles/kamil.dir/main.cpp.o: ../auth.h
 CMakeFiles/kamil.dir/main.cpp.o: ../common/singleton.h
 CMakeFiles/kamil.dir/main.cpp.o: ../main.cpp
 CMakeFiles/kamil.dir/main.cpp.o: ../proto.h
 CMakeFiles/kamil.dir/main.cpp.o: ../user/user.h
 
+CMakeFiles/kamil.dir/open.cpp.o: .././common/singleton.h
+CMakeFiles/kamil.dir/open.cpp.o: .././dirp/dirp_holder.h
 CMakeFiles/kamil.dir/open.cpp.o: .././open_handlers/open_msg_handler.h
 CMakeFiles/kamil.dir/open.cpp.o: .././proto.h
 CMakeFiles/kamil.dir/open.cpp.o: ../error.h
@@ -21,6 +27,8 @@ CMakeFiles/kamil.dir/open.cpp.o: ../open.cpp
 CMakeFiles/kamil.dir/open.cpp.o: ../open.h
 CMakeFiles/kamil.dir/open.cpp.o: ../proto.h
 
+CMakeFiles/kamil.dir/open_handlers/open_msg_handler.cpp.o: ../common/singleton.h
+CMakeFiles/kamil.dir/open_handlers/open_msg_handler.cpp.o: ../dirp/dirp_holder.h
 CMakeFiles/kamil.dir/open_handlers/open_msg_handler.cpp.o: ../open_handlers/open_msg_handler.cpp
 CMakeFiles/kamil.dir/open_handlers/open_msg_handler.cpp.o: ../open_handlers/open_msg_handler.h
 CMakeFiles/kamil.dir/open_handlers/open_msg_handler.cpp.o: ../proto.h
@@ -31,10 +39,13 @@ CMakeFiles/kamil.dir/operation.cpp.o: ../operation.h
 CMakeFiles/kamil.dir/operation.cpp.o: ../operation_handlers/operation_msg_handler.h
 CMakeFiles/kamil.dir/operation.cpp.o: ../proto.h
 
+CMakeFiles/kamil.dir/operation_handlers/operation_msg_handler.cpp.o: ../common/singleton.h
+CMakeFiles/kamil.dir/operation_handlers/operation_msg_handler.cpp.o: ../dirp/dirp_holder.h
 CMakeFiles/kamil.dir/operation_handlers/operation_msg_handler.cpp.o: ../operation_handlers/operation_msg_handler.cpp
 CMakeFiles/kamil.dir/operation_handlers/operation_msg_handler.cpp.o: ../operation_handlers/operation_msg_handler.h
 CMakeFiles/kamil.dir/operation_handlers/operation_msg_handler.cpp.o: ../proto.h
 
+CMakeFiles/kamil.dir/proto.cpp.o: .././dirp/dirp_holder.h
 CMakeFiles/kamil.dir/proto.cpp.o: .././open_handlers/open_msg_handler.h
 CMakeFiles/kamil.dir/proto.cpp.o: .././proto.h
 CMakeFiles/kamil.dir/proto.cpp.o: ../auth.h
@@ -42,6 +53,7 @@ CMakeFiles/kamil.dir/proto.cpp.o: ../common/singleton.h
 CMakeFiles/kamil.dir/proto.cpp.o: ../error.h
 CMakeFiles/kamil.dir/proto.cpp.o: ../open.h
 CMakeFiles/kamil.dir/proto.cpp.o: ../operation.h
+CMakeFiles/kamil.dir/proto.cpp.o: ../operation_handlers/operation_msg_handler.h
 CMakeFiles/kamil.dir/proto.cpp.o: ../proto.cpp
 CMakeFiles/kamil.dir/proto.cpp.o: ../proto.h
 CMakeFiles/kamil.dir/proto.cpp.o: ../user/user.h

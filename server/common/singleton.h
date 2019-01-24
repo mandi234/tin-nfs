@@ -22,4 +22,6 @@ public:
 };
 
 
+
+
 #endif //KAMIL_SINGLETON_H

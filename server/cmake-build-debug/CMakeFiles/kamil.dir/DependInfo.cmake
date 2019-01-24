@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/azablock/CLionProjects/tin-nfs/server/auth.cpp" "/home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug/CMakeFiles/kamil.dir/auth.cpp.o"
+  "/home/azablock/CLionProjects/tin-nfs/server/dirp/dirp_holder.cpp" "/home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug/CMakeFiles/kamil.dir/dirp/dirp_holder.cpp.o"
   "/home/azablock/CLionProjects/tin-nfs/server/main.cpp" "/home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug/CMakeFiles/kamil.dir/main.cpp.o"
   "/home/azablock/CLionProjects/tin-nfs/server/open.cpp" "/home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug/CMakeFiles/kamil.dir/open.cpp.o"
   "/home/azablock/CLionProjects/tin-nfs/server/open_handlers/open_msg_handler.cpp" "/home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug/CMakeFiles/kamil.dir/open_handlers/open_msg_handler.cpp.o"

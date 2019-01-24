@@ -10,12 +10,14 @@
 #include <iostream>
 #include <dirent.h>
 #include <fcntl.h>
+#include "../dirp/dirp_holder.h"
+
 
 
 class OpenMsgHandler {
 public:
-    static void openFile(RequestOpen* request_open, int len, char **resp, int *response_len);
-    static void openDir(RequestOpen* request_open, int len, char **resp, int *response_len);
+    void openFile(RequestOpen* request_open, int len, char **resp, int *response_len);
+    void openDir(RequestOpen* request_open, int len, char **resp, int *response_len);
 };
 
 
