@@ -7,8 +7,8 @@
 #include "proto.h"
 #include "send_sock_msg.h"
 #include "auth.h"
-int mynfs_read(int fd, void *buf, int count)
-{
+
+int mynfs_read(int fd, void *buf, int count) {
     RequestOperation req_message;
     ResponseOperation *res_message;
     char response[4096];
@@ -22,7 +22,7 @@ int mynfs_read(int fd, void *buf, int count)
 
     res_message = (ResponseOperation *) response;
 
-    std::cout << "RECEIVED READ RESPONSE - NICE ! " << std::endl;
+    std::cout << "RECEIVED mynfs_read RESPONSE !" << std::endl;
 
     //std::cout<<res_message->buf << std::endl;
 
@@ -32,6 +32,30 @@ int mynfs_read(int fd, void *buf, int count)
     return res_message->buf_len;
     //return descriptor;
 }
+
+
+int mynfs_write(int fd, void* fileContent, void *respBuf, int count) {
+    RequestOperation req_message;
+    ResponseOperation *res_message;
+    char response[4096];
+    req_message.msg_id = MSG_REQUEST_OPERATION;
+    req_message.function_id = OPERATION_MSG_REQUEST_WRITE;
+    req_message.descriptor = htonl(fd);
+    req_message.token = htonl(global_token);
+    req_message.count = count;
+    memcpy(req_message.buf, (uint8_t *) fileContent, 1024);
+
+    send_message_and_wait_for_response((char*)global_host.c_str(), (uint16_t)global_port, (uint8_t *) &req_message, sizeof(req_message), response);
+
+    res_message = (ResponseOperation *) response;
+
+    std::cout << "RECEIVED mynfs_write RESPONSE !" << std::endl;
+
+    memcpy(respBuf, res_message->buf, res_message->buf_len);
+
+    return res_message->buf_len;
+}
+
 
 int mynfs_readdir(int fd, void *buf, int count) {
     RequestOperation req_message;
@@ -47,7 +71,7 @@ int mynfs_readdir(int fd, void *buf, int count) {
 
     res_message = (ResponseOperation *) response;
 
-    std::cout << "RECEIVED READDIR RESPONSE - NICE ! " << std::endl;
+    std::cout << "RECEIVED mynfs_readdir RESPONSE ! " << std::endl;
     std::cout<<res_message->buf << std::endl;
 
     memcpy(buf, res_message->buf, res_message->buf_len);

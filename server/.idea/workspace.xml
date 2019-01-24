@@ -12,9 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d19e7826-5529-49de-9387-6c343b1ed0a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/operation_handlers/operation_msg_handler.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operation_handlers/operation_msg_handler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nfs_root/file_write_test_1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../klient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/operation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/operation.cpp.o" afterDir="false" />
@@ -22,25 +24,22 @@
       <change beforePath="$PROJECT_DIR$/../klient/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../klient/operation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/operation.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../klient/operation.h" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/operation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../klient/proto.h" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/proto.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/open.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/open.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/open_handlers/open_msg_handler.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/open_handlers/open_msg_handler.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/operation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/operation.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/proto.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/proto.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/kamil" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/kamil" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/kamil.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/kamil.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/open.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/open.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/open_handlers/open_msg_handler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/open_handlers/open_msg_handler.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/operation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/operation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/operation_handlers/operation_msg_handler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/operation_handlers/operation_msg_handler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/operation_handlers/operation_msg_handler.h" beforeDir="false" afterPath="$PROJECT_DIR$/operation_handlers/operation_msg_handler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proto.h" beforeDir="false" afterPath="$PROJECT_DIR$/proto.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,22 +51,43 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/operation_handlers/operation_msg_handler.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+            <state relative-caret-position="75">
+              <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/open_handlers/open_msg_handler.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/operation.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="40" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="40" />
+            <state relative-caret-position="743">
+              <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
               <folding>
                 <element signature="e#40#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/open.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+              <folding>
+                <element signature="e#39#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,6 +105,7 @@
       <find>ch</find>
       <find>chuj</find>
       <find>count</find>
+      <find>config.</find>
     </findStrings>
     <replaceStrings>
       <replace>uchar_t</replace>
@@ -109,19 +130,20 @@
         <option value="$PROJECT_DIR$/user/user.cpp" />
         <option value="$PROJECT_DIR$/auth.cpp" />
         <option value="$PROJECT_DIR$/auth.h" />
-        <option value="$PROJECT_DIR$/proto.h" />
         <option value="$PROJECT_DIR$/open.h" />
-        <option value="$PROJECT_DIR$/open.cpp" />
         <option value="$PROJECT_DIR$/open_handlers/open_msg_handler.h" />
-        <option value="$PROJECT_DIR$/open_handlers/open_msg_handler.cpp" />
         <option value="$PROJECT_DIR$/proto.cpp" />
         <option value="$PROJECT_DIR$/config.txt" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/operation_handlers/operation_handler.h" />
-        <option value="$PROJECT_DIR$/operation.cpp" />
         <option value="$PROJECT_DIR$/operation_handlers/operation_msg_handler.h" />
+        <option value="$PROJECT_DIR$/operation.cpp" />
+        <option value="$PROJECT_DIR$/proto.h" />
+        <option value="$PROJECT_DIR$/nfs_root/file_write_test_1.txt" />
         <option value="$PROJECT_DIR$/operation_handlers/operation_msg_handler.cpp" />
+        <option value="$PROJECT_DIR$/open.cpp" />
+        <option value="$PROJECT_DIR$/open_handlers/open_msg_handler.cpp" />
       </list>
     </option>
   </component>
@@ -150,6 +172,16 @@
             <path>
               <item name="kamil" type="b2602c69:ProjectViewProjectNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kamil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="nfs_root" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kamil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="open_handlers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -169,6 +201,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmake-build-debug" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -182,7 +219,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="kamil" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kamil" TARGET_NAME="kamil" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kamil" RUN_TARGET_NAME="kamil">
+    <configuration name="kamil" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/../kamil" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kamil" TARGET_NAME="kamil" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kamil" RUN_TARGET_NAME="kamil">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -207,23 +244,23 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36327000" />
+    <option name="totallyTimeSpent" value="42103000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1313" y="27" width="1237" height="1413" extended-state="4" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26112512" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26112512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3281493" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.478145" weight="0.30559877" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49253732" visible="true" weight="0.39813375" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.478145" weight="0.30529594" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49253732" visible="true" weight="0.27570093" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4704413" weight="0.32659408" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4704413" weight="0.326324" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5295587" side_tool="true" weight="0.32659408" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -236,6 +273,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="operation msg request write" />
+    <option name="LAST_COMMIT_MESSAGE" value="operation msg request write" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -252,6 +293,11 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>strlen(fileContent)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>(const char*) request_open-&gt;path</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -259,13 +305,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/c++/7/thread">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3743">
@@ -356,27 +395,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proto.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="994">
-          <caret line="89" column="23" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/errno.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/open.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#83#102#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -418,20 +440,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/open.cpp">
+    <entry file="file:///usr/include/unistd.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding>
-            <element signature="e#39#61#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1139">
+          <caret line="362" column="15" selection-start-line="362" selection-start-column="15" selection-end-line="362" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/open_handlers/open_msg_handler.cpp">
+    <entry file="file://$PROJECT_DIR$/proto.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="6" />
+        <state relative-caret-position="1002">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -442,17 +468,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/config.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/file_write_test_1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nfs_root/file_write_test_1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/open.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#83#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/open.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="e#39#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/operation_handlers/operation_msg_handler.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        <state relative-caret-position="75">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/open_handlers/open_msg_handler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/operation.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="743">
+          <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
           <folding>
             <element signature="e#40#62#0" expanded="true" />
           </folding>

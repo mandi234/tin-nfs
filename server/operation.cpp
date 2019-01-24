@@ -19,6 +19,7 @@ uint32_t handle_operation_request(char *msg, int len, char **resp, int *response
             OperationMsgHandler::readFile(request_operation, len, resp, response_len);
             break;
         case OPERATION_MSG_REQUEST_WRITE:
+            OperationMsgHandler::writeFile(request_operation, len, resp, response_len);
             break;
         case OPERATION_MSG_REQUEST_LSEEK:
             break;

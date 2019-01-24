@@ -12,7 +12,7 @@
 
 uint32_t handle_open_request(char *msg, int len, char **resp, int *response_len) {
     RequestOpen *request_open = (RequestOpen*) msg;
-    std::cout<< "IN HANDLE OPEN REQUEST "<< (int)request_open->function_id << std::endl;
+    std::cout<< "\nIN HANDLE OPEN REQUEST "<< (int)request_open->function_id << std::endl;
 
     switch(request_open->function_id) {
         case OPEN_MSG_REQUEST_OPEN:
