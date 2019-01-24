@@ -1,3 +1,0 @@
-/home/azablock/CLionProjects/tin-nfs/klient/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/azablock/CLionProjects/tin-nfs/klient/cmake-build-debug/CMakeFiles/klient.dir
-/home/azablock/CLionProjects/tin-nfs/klient/cmake-build-debug/CMakeFiles/edit_cache.dir
