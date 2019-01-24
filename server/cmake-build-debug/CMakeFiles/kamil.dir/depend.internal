@@ -29,6 +29,11 @@ CMakeFiles/kamil.dir/operation.cpp.o
  /home/azablock/CLionProjects/tin-nfs/server/error.h
  /home/azablock/CLionProjects/tin-nfs/server/operation.cpp
  /home/azablock/CLionProjects/tin-nfs/server/operation.h
+ /home/azablock/CLionProjects/tin-nfs/server/operation_handlers/operation_msg_handler.h
+ /home/azablock/CLionProjects/tin-nfs/server/proto.h
+CMakeFiles/kamil.dir/operation_handlers/operation_msg_handler.cpp.o
+ /home/azablock/CLionProjects/tin-nfs/server/operation_handlers/operation_msg_handler.cpp
+ /home/azablock/CLionProjects/tin-nfs/server/operation_handlers/operation_msg_handler.h
  /home/azablock/CLionProjects/tin-nfs/server/proto.h
 CMakeFiles/kamil.dir/proto.cpp.o
  /home/azablock/CLionProjects/tin-nfs/server/./open_handlers/open_msg_handler.h

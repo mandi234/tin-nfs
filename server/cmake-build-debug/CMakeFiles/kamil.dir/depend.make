@@ -28,7 +28,12 @@ CMakeFiles/kamil.dir/open_handlers/open_msg_handler.cpp.o: ../proto.h
 CMakeFiles/kamil.dir/operation.cpp.o: ../error.h
 CMakeFiles/kamil.dir/operation.cpp.o: ../operation.cpp
 CMakeFiles/kamil.dir/operation.cpp.o: ../operation.h
+CMakeFiles/kamil.dir/operation.cpp.o: ../operation_handlers/operation_msg_handler.h
 CMakeFiles/kamil.dir/operation.cpp.o: ../proto.h
+
+CMakeFiles/kamil.dir/operation_handlers/operation_msg_handler.cpp.o: ../operation_handlers/operation_msg_handler.cpp
+CMakeFiles/kamil.dir/operation_handlers/operation_msg_handler.cpp.o: ../operation_handlers/operation_msg_handler.h
+CMakeFiles/kamil.dir/operation_handlers/operation_msg_handler.cpp.o: ../proto.h
 
 CMakeFiles/kamil.dir/proto.cpp.o: .././open_handlers/open_msg_handler.h
 CMakeFiles/kamil.dir/proto.cpp.o: .././proto.h

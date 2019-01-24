@@ -117,6 +117,12 @@
 		<Unit filename="/home/azablock/CLionProjects/tin-nfs/server/operation.h">
 			<Option target="kamil"/>
 		</Unit>
+		<Unit filename="/home/azablock/CLionProjects/tin-nfs/server/operation_handlers/operation_msg_handler.cpp">
+			<Option target="kamil"/>
+		</Unit>
+		<Unit filename="/home/azablock/CLionProjects/tin-nfs/server/operation_handlers/operation_msg_handler.h">
+			<Option target="kamil"/>
+		</Unit>
 		<Unit filename="/home/azablock/CLionProjects/tin-nfs/server/proto.cpp">
 			<Option target="kamil"/>
 		</Unit>

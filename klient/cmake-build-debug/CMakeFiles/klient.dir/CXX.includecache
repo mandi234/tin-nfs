@@ -29,6 +29,8 @@ fcntl.h
 -
 unistd.h
 -
+iostream
+-
 
 /home/azablock/CLionProjects/tin-nfs/klient/open.h
 

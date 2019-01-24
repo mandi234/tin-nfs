@@ -6,5 +6,6 @@
 #define KLIENT_OPERATION_H
 
 int mynfs_read(int fd, void *buf, int count);
+int mynfs_readdir(int fd, void *buf, int count);
 
 #endif //KLIENT_OPERATION_H

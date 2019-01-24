@@ -6,23 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/azablock/CLionProjects/tin-nfs/server/open_handlers/open_msg_handler.cpp
-open_msg_handler.h
-/home/azablock/CLionProjects/tin-nfs/server/open_handlers/open_msg_handler.h
-dirent.h
--
+/home/azablock/CLionProjects/tin-nfs/server/operation_handlers/operation_msg_handler.cpp
+operation_msg_handler.h
+/home/azablock/CLionProjects/tin-nfs/server/operation_handlers/operation_msg_handler.h
 
-/home/azablock/CLionProjects/tin-nfs/server/open_handlers/open_msg_handler.h
-../proto.h
-/home/azablock/CLionProjects/tin-nfs/server/proto.h
-netinet/in.h
--
+/home/azablock/CLionProjects/tin-nfs/server/operation_handlers/operation_msg_handler.h
 iostream
 -
+netinet/in.h
+-
+unistd.h
+-
+cstring
+-
 dirent.h
 -
-fcntl.h
--
+../proto.h
+/home/azablock/CLionProjects/tin-nfs/server/proto.h
 
 /home/azablock/CLionProjects/tin-nfs/server/proto.h
 stdint.h

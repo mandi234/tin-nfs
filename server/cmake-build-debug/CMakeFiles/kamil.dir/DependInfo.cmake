@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/azablock/CLionProjects/tin-nfs/server/open.cpp" "/home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug/CMakeFiles/kamil.dir/open.cpp.o"
   "/home/azablock/CLionProjects/tin-nfs/server/open_handlers/open_msg_handler.cpp" "/home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug/CMakeFiles/kamil.dir/open_handlers/open_msg_handler.cpp.o"
   "/home/azablock/CLionProjects/tin-nfs/server/operation.cpp" "/home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug/CMakeFiles/kamil.dir/operation.cpp.o"
+  "/home/azablock/CLionProjects/tin-nfs/server/operation_handlers/operation_msg_handler.cpp" "/home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug/CMakeFiles/kamil.dir/operation_handlers/operation_msg_handler.cpp.o"
   "/home/azablock/CLionProjects/tin-nfs/server/proto.cpp" "/home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug/CMakeFiles/kamil.dir/proto.cpp.o"
   "/home/azablock/CLionProjects/tin-nfs/server/user/user.cpp" "/home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug/CMakeFiles/kamil.dir/user/user.cpp.o"
   )
