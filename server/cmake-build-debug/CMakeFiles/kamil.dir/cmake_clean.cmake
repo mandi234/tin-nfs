@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/kamil.dir/open.cpp.o"
   "CMakeFiles/kamil.dir/operation.cpp.o"
   "CMakeFiles/kamil.dir/user/user.cpp.o"
+  "CMakeFiles/kamil.dir/open_handlers/open_msg_handler.cpp.o"
   "kamil.pdb"
   "kamil"
 )
