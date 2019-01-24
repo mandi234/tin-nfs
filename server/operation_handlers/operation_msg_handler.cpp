@@ -9,13 +9,15 @@ void OperationMsgHandler::readFile(RequestOperation *request_operation, int len,
     std::cout << "OPERATION_MSG_REQUEST_READ" << std::endl;
     int fd = ntohl(request_operation->descriptor);
     char file_buffer[1024];
-    int32_t error = read(fd, file_buffer, 1024);
+    int32_t bytes_read = read(fd, file_buffer, 1024);
     auto *response_operation = (ResponseOperation *) malloc(sizeof(ResponseOperation));
 
-    response_operation->buf_len = htonl(error);
+    response_operation->buf_len = htonl(bytes_read);
     response_operation->error = htonl(errno);
     memcpy(response_operation->buf, file_buffer, 1024);
-    std::cout<<"EXECUTED READ SUCCESFULLY" << error <<  std::endl;
+    file_buffer[bytes_read] = '\0';
+    std::cout << "FILE BUFFER   " << file_buffer << std::endl;
+    std::cout<<"EXECUTED READ SUCCESFULLY" << bytes_read <<  std::endl;
     *response_len = sizeof(ResponseOperation);
     *resp = (char *) response_operation;
 }

@@ -28,11 +28,9 @@ int main(int argc, char *argv[])
     std::cout << "configFd: " << configFd;
 
 
-    //READ
-    //fixme leci -1 (juz w operation_msg_handler.cpp (serwer))
-    //mynfs_read(configFd, result_buf, 1024);
-
-
+    mynfs_read(configFd, result_buf, 1024);
+    result_buf[1023] = '\0';
+    std::cout << result_buf << std::endl;
     //OPEN DIR
     //fixme leci -1 (juz w open_msg_handler.cpp (serwer))
     //todo setup relative dir path, "./../" prefix in client will be removed
