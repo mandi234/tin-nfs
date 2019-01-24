@@ -150,6 +150,33 @@ auth.cpp.s:
 	$(MAKE) -f CMakeFiles/kamil.dir/build.make CMakeFiles/kamil.dir/auth.cpp.s
 .PHONY : auth.cpp.s
 
+dirp/dirp_holder.o: dirp/dirp_holder.cpp.o
+
+.PHONY : dirp/dirp_holder.o
+
+# target to build an object file
+dirp/dirp_holder.cpp.o:
+	$(MAKE) -f CMakeFiles/kamil.dir/build.make CMakeFiles/kamil.dir/dirp/dirp_holder.cpp.o
+.PHONY : dirp/dirp_holder.cpp.o
+
+dirp/dirp_holder.i: dirp/dirp_holder.cpp.i
+
+.PHONY : dirp/dirp_holder.i
+
+# target to preprocess a source file
+dirp/dirp_holder.cpp.i:
+	$(MAKE) -f CMakeFiles/kamil.dir/build.make CMakeFiles/kamil.dir/dirp/dirp_holder.cpp.i
+.PHONY : dirp/dirp_holder.cpp.i
+
+dirp/dirp_holder.s: dirp/dirp_holder.cpp.s
+
+.PHONY : dirp/dirp_holder.s
+
+# target to generate assembly for a file
+dirp/dirp_holder.cpp.s:
+	$(MAKE) -f CMakeFiles/kamil.dir/build.make CMakeFiles/kamil.dir/dirp/dirp_holder.cpp.s
+.PHONY : dirp/dirp_holder.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -351,6 +378,9 @@ help:
 	@echo "... auth.o"
 	@echo "... auth.i"
 	@echo "... auth.s"
+	@echo "... dirp/dirp_holder.o"
+	@echo "... dirp/dirp_holder.i"
+	@echo "... dirp/dirp_holder.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

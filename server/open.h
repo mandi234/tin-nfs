@@ -15,6 +15,7 @@
 #define OPEN_MSG_REQUEST_UNLINK 10
 #define OPEN_MSG_RESPONSE_UNLINK 11
 
+static OpenMsgHandler openMsgHandler;
 
 uint32_t handle_open_request(char *msg, int len, char **resp, int *response_len);
 uint32_t handle_open_response(char *msg, int len);

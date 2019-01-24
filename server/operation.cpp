@@ -14,23 +14,28 @@
 uint32_t handle_operation_request(char *msg, int len, char **resp, int *response_len) {
     RequestOperation *request_operation = (RequestOperation*) msg;
     std::cout<< "IN HANDLE OPERATION REQUEST "<< (int)request_operation->function_id << std::endl;
+
     switch(request_operation->function_id) {
         case OPERATION_MSG_REQUEST_READ:
-            OperationMsgHandler::readFile(request_operation, len, resp, response_len);
+            operationMsgHandler.readFile(request_operation, len, resp, response_len);
             break;
         case OPERATION_MSG_REQUEST_WRITE:
-            OperationMsgHandler::writeFile(request_operation, len, resp, response_len);
+            operationMsgHandler.writeFile(request_operation, len, resp, response_len);
             break;
         case OPERATION_MSG_REQUEST_LSEEK:
+            operationMsgHandler.lseekFile(request_operation, len, resp, response_len);
             break;
         case OPERATION_MSG_REQUEST_CLOSE:
+            operationMsgHandler.closeFile(request_operation, len, resp, response_len);
             break;
         case OPERATION_MSG_REQUEST_FSTAT:
+            operationMsgHandler.fileStatus(request_operation, len, resp, response_len);
             break;
         case OPERATION_MSG_REQUEST_READDIR:
-            OperationMsgHandler::readDir(request_operation, len, resp, response_len);
+            operationMsgHandler.readDir(request_operation, len, resp, response_len);
             break;
         case OPERATION_MSG_REQUEST_CLOSEDIR:
+            operationMsgHandler.closeDir(request_operation, len, resp, response_len);
             break;
         default:
             return ENFSPROTO;

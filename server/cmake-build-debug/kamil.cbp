@@ -93,6 +93,12 @@
 		<Unit filename="/home/azablock/CLionProjects/tin-nfs/server/common/singleton.h">
 			<Option target="kamil"/>
 		</Unit>
+		<Unit filename="/home/azablock/CLionProjects/tin-nfs/server/dirp/dirp_holder.cpp">
+			<Option target="kamil"/>
+		</Unit>
+		<Unit filename="/home/azablock/CLionProjects/tin-nfs/server/dirp/dirp_holder.h">
+			<Option target="kamil"/>
+		</Unit>
 		<Unit filename="/home/azablock/CLionProjects/tin-nfs/server/error.h">
 			<Option target="kamil"/>
 		</Unit>
