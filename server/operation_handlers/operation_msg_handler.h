@@ -16,6 +16,8 @@ class OperationMsgHandler {
 public:
     static void readFile(RequestOperation *request_operation, int len, char **resp, int *response_len);
     static void readDir(RequestOperation *request_operation, int len, char **resp, int *response_len);
+
+    static void writeFile(RequestOperation *pOperation, int len, char **pString, int *pInt);
 };
 
 

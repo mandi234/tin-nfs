@@ -85,6 +85,7 @@ struct RequestOperation {
     uint32_t count;
     uint32_t whence;
     uint32_t offset;
+    uint8_t buf[1024];
 };
 
 struct ResponseOperation {
