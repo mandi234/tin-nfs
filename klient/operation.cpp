@@ -89,7 +89,7 @@ int mynfs_lseek(int fd, off_t offset, unsigned int whence) {
 }
 
 
-int mynfs_close(int fd, void *buf) {
+int mynfs_close(int fd) {
     RequestOperation req_message{};
     ResponseOperation *res_message;
     char response[4096];
@@ -98,7 +98,6 @@ int mynfs_close(int fd, void *buf) {
     req_message.function_id = OPERATION_MSG_REQUEST_CLOSE;
     req_message.descriptor = htonl(fd);
     req_message.token = htonl(global_token);
-    req_message.count = 1024; //todo pass count param?
 
     send_message_and_wait_for_response(
             (char*)global_host.c_str(),
@@ -111,9 +110,7 @@ int mynfs_close(int fd, void *buf) {
 
     res_message = (ResponseOperation *) response;
 
-    memcpy(buf, res_message->buf, res_message->buf_len);
-
-    return res_message->buf_len;
+    return ntohl(res_message->error);
 }
 
 

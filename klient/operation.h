@@ -8,7 +8,7 @@
 int mynfs_read(int fd, void *buf, int count);
 int mynfs_write(int fd, void* fileContent, void *respBuf, int count);
 int mynfs_lseek(int fd, off_t offset, unsigned int whence);
-int mynfs_close(int fd, void *buf);
+int mynfs_close(int fd);
 struct stat* mynfs_fstat(int fd, void *buf);
 
 int mynfs_readdir(int fd, void *buf, int count);

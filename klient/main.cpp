@@ -29,8 +29,10 @@ int main(int argc, char *argv[])
 
     mynfs_read(configFd, result_buf, 20000);
 
-
     std::cout << result_buf << std::endl;
+    int close_status = mynfs_close(configFd);
+
+    std::cout<< "CLOSE STATUS : " << close_status << std::endl;
 
     int nfs_root_fd = mynfs_opendir("127.0.0.1", "test_directory", O_DIRECTORY | O_RDONLY, 0);
     std::cout << "'nfs_root' directory fd: " << nfs_root_fd << "\n\n";

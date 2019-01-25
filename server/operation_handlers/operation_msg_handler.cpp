@@ -71,7 +71,8 @@ void OperationMsgHandler::closeFile(RequestOperation *request_operation, int len
 
     auto *response_operation = (ResponseOperation *) malloc(sizeof(ResponseOperation));
     response_operation->msg_id = OPERATION_MSG_RESPONSE_CLOSE;
-    memcpy(response_operation->buf, (char*) &closeStatus, sizeof(int)); //todo (char*) cast?
+
+    response_operation->error = closeStatus;
 
     *response_len = sizeof(ResponseOperation);
     *resp = (char *) response_operation;
