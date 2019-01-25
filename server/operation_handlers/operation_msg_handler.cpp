@@ -34,7 +34,6 @@ void OperationMsgHandler::readFile(RequestOperation *request_operation, int len,
     *resp = (char *) response_operation;
 }
 
-
 void OperationMsgHandler::writeFile(RequestOperation *request_operation, int len, char **resp, int *response_len) {
     int fd = ntohl(request_operation->descriptor);
     char *fileContent = (char *) request_operation->buf;
