@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/azablock/CLionProjects/tin-nfs/klient/auth.cpp
+auth.h
+/home/azablock/CLionProjects/tin-nfs/klient/auth.h
+
 /home/azablock/CLionProjects/tin-nfs/klient/auth.h
 stdint.h
 -
@@ -88,6 +92,12 @@ auth.h
 
 /home/azablock/CLionProjects/tin-nfs/klient/proto.h
 stdint.h
+-
+
+/home/azablock/CLionProjects/tin-nfs/klient/send_sock_msg.cpp
+send_sock_msg.h
+/home/azablock/CLionProjects/tin-nfs/klient/send_sock_msg.h
+limits.h
 -
 
 /home/azablock/CLionProjects/tin-nfs/klient/send_sock_msg.h

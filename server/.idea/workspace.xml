@@ -11,7 +11,30 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d19e7826-5529-49de-9387-6c343b1ed0a2" name="Default Changelist" comment="" />
+    <list default="true" id="d19e7826-5529-49de-9387-6c343b1ed0a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../klient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/auth_msg.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/auth_msg.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/open.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/open.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/operation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/operation.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/send_sock_msg.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/CMakeFiles/klient.dir/send_sock_msg.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../klient/cmake-build-debug/klient" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/cmake-build-debug/klient" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../klient/operation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/operation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../klient/operation.h" beforeDir="false" afterPath="$PROJECT_DIR$/../klient/operation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/auth.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/auth.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/open.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/open.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/open_handlers/open_msg_handler.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/open_handlers/open_msg_handler.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/operation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/operation.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/proto.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kamil.dir/proto.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/kamil" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/kamil" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/operation_handlers/operation_msg_handler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/operation_handlers/operation_msg_handler.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,24 +44,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/operation.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-              <folding>
-                <element signature="e#40#62#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/operation_handlers/operation_msg_handler.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="992">
+              <caret line="118" column="35" selection-start-line="118" selection-start-column="35" selection-end-line="118" selection-end-column="35" />
               <folding>
                 <element signature="e#44#78#0" expanded="true" />
               </folding>
@@ -46,22 +57,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/open.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/operation.h">
+        <entry file="file://$PROJECT_DIR$/operation_handlers/operation_msg_handler.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="360">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
               <folding>
-                <element signature="e#93#112#0" expanded="true" />
+                <element signature="e#112#131#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,6 +86,8 @@
       <find>instance()</find>
       <find>OperationMsgHandler::</find>
       <find>opeartionMsgHandler</find>
+      <find>stat</find>
+      <find>stat</find>
     </findStrings>
     <replaceStrings>
       <replace>uchar_t</replace>
@@ -134,9 +138,9 @@
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="1313" />
-    <option name="y" value="25" />
-    <option name="width" value="1247" />
-    <option name="height" value="1415" />
+    <option name="y" value="27" />
+    <option name="width" value="1237" />
+    <option name="height" value="1413" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -146,12 +150,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="kamil" type="b2602c69:ProjectViewProjectNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kamil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kamil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+              <item name="CMakeFiles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kamil" type="b2602c69:ProjectViewProjectNode" />
@@ -171,7 +187,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,30 +231,39 @@
       <workItem from="1547155406668" duration="6369000" />
       <workItem from="1547460372629" duration="1232000" />
       <workItem from="1547461720646" duration="19028000" />
+      <workItem from="1548374208678" duration="2427000" />
     </task>
+    <task id="LOCAL-00001" summary="merge fixes">
+      <created>1548374663453</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548374663453</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32817000" />
+    <option name="totallyTimeSpent" value="35244000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1313" y="25" width="1247" height="1415" extended-state="4" />
+    <frame x="1313" y="27" width="1237" height="1413" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2589509" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25860623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289269" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.478145" weight="0.3061674" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.478145" weight="0.30607477" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49253732" weight="0.27570093" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4704413" weight="0.326324" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4693535" weight="0.326324" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.521855" side_tool="true" visible="true" weight="0.3061674" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5306465" side_tool="true" weight="0.326324" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3278328" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -253,7 +277,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="operation msg request write" />
-    <option name="LAST_COMMIT_MESSAGE" value="operation msg request write" />
+    <MESSAGE value="merge fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge fixes" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -464,26 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/operation_handlers/operation_msg_handler.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#112#131#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/operation.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#93#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/open.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -491,13 +496,6 @@
           <folding>
             <element signature="e#39#61#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/open.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -510,7 +508,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/operation.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
+        <state relative-caret-position="570">
           <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
           <folding>
             <element signature="e#40#62#0" expanded="true" />
@@ -518,10 +516,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/operation.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#93#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/open.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/operation_handlers/operation_msg_handler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="e#112#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/operation_handlers/operation_msg_handler.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="992">
+          <caret line="118" column="35" selection-start-line="118" selection-start-column="35" selection-end-line="118" selection-end-column="35" />
           <folding>
             <element signature="e#44#78#0" expanded="true" />
           </folding>
