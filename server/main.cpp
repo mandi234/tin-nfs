@@ -16,14 +16,25 @@
 void handle_client(int socket)
 {
     std::cout<<"TEST 1.25"<<std::endl;
-    ssize_t valread;
-    char buffer[4096];
+    int32_t valread;
+    char *input_buffer = (char*)malloc(4096);
+    int input_buffer_size = 0;
     char *response;
     int response_len;
-    valread = read(socket, buffer, 4096);
+
+    while(valread = recv(socket, input_buffer + input_buffer_size, 4096, 0)) {
+        if (valread < 4096) {
+            break;
+        }
+        input_buffer_size += 4096;
+        char *tmp_buffer = (char*) malloc(input_buffer_size + 4096);
+        memcpy(tmp_buffer, input_buffer, input_buffer_size);
+        free(input_buffer);
+        input_buffer = tmp_buffer;
+    }
 
     std::cout<<"TEST 1.5"<<std::endl;
-    handle_message(buffer, valread, &response, &response_len);
+    handle_message(input_buffer, valread, &response, &response_len);
 
     send(socket, response, response_len, 0);
     close(socket);
