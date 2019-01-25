@@ -17,6 +17,7 @@ void OperationMsgHandler::readFile(RequestOperation *request_operation, int len,
     if (bytes_read > 0) {
         response_operation = (ResponseOperation *) malloc(sizeof(ResponseOperation) + bytes_read);
         memcpy(response_operation->buf, file_buffer, bytes_read);
+        response_operation->buf[bytes_read - 1] = '\0';
         *response_len = sizeof(ResponseOperation) + bytes_read;
     }
     else {
@@ -51,14 +52,14 @@ void OperationMsgHandler::writeFile(RequestOperation *request_operation, int len
 
 void OperationMsgHandler::lseekFile(RequestOperation *request_operation, int len, char **resp, int *response_len) {
     int fd = ntohl(request_operation->descriptor);
-    uint32_t offset = request_operation->offset;
-    uint32_t whence = request_operation->whence;
+    uint32_t offset = ntohl(request_operation->offset);
+    uint32_t whence = ntohl(request_operation->whence);
 
     __off_t lseekOffset = lseek(fd, offset, whence);
 
     auto *response_operation = (ResponseOperation *) malloc(sizeof(ResponseOperation));
     response_operation->msg_id = OPERATION_MSG_RESPONSE_LSEEK;
-    memcpy(response_operation->buf, (char*) &lseekOffset, sizeof(__off_t)); //todo (char*) cast?
+    response_operation->error = htonl(lseekOffset);
 
     *response_len = sizeof(ResponseOperation);
     *resp = (char *) response_operation;
@@ -92,7 +93,6 @@ void OperationMsgHandler::fileStatus(RequestOperation *request_operation, int le
 }
 
 void OperationMsgHandler::readDir(RequestOperation *request_operation, int len, char **resp, int *response_len) {
-    auto *response_operation = (ResponseOperation *) malloc(sizeof(ResponseOperation));
     auto dirDescriptor = ntohl(request_operation->descriptor);
     auto dir = fdopendir(dirDescriptor);
     std::string dirContent;
@@ -101,12 +101,13 @@ void OperationMsgHandler::readDir(RequestOperation *request_operation, int len, 
     while ((entry = readdir(dir)) != nullptr) {
         dirContent.append(entry->d_name).append("\n");
     }
+    auto *response_operation = (ResponseOperation *) malloc(sizeof(ResponseOperation) + dirContent.length());
 
     response_operation->msg_id = OPERATION_MSG_RESPONSE_READDIR;
     memcpy(response_operation->buf, dirContent.c_str(), dirContent.length());
-    response_operation->buf_len = static_cast<uint32_t>(dirContent.length());
+    response_operation->buf_len = htonl(static_cast<uint32_t>(dirContent.length()));
 
-    *response_len = sizeof(ResponseOpen);
+    *response_len = sizeof(ResponseOpen) + dirContent.length();
     *resp = (char *) response_operation;
 }
 

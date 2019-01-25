@@ -13,7 +13,7 @@
 
 int main(int argc, char *argv[])
 {
-    char result_buf[16796];
+    char result_buf[200000];
     char readdir_result_buf[1024];
     char write_result_buf[1024];
 
@@ -22,29 +22,26 @@ int main(int argc, char *argv[])
 
 
 
-    //fixme leci -1 (juz w open_msg_handler.cpp (serwer))
     int configFd = mynfs_open("127.0.0.1", "config.txt", O_RDONLY, 0);
     std::cout << "configFd: " << configFd;
 
+    mynfs_lseek(configFd,2, SEEK_SET);
 
-    mynfs_read(configFd, result_buf, 16796);
+    mynfs_read(configFd, result_buf, 20000);
 
 
     std::cout << result_buf << std::endl;
 
-  //  int nfs_root_fd = mynfs_opendir("127.0.0.1", "./../nfs_root", O_DIRECTORY | O_RDONLY, 0);
-//    std::cout << "'nfs_root' directory fd: " << nfs_root_fd << "\n\n";
+    int nfs_root_fd = mynfs_opendir("127.0.0.1", "test_directory", O_DIRECTORY | O_RDONLY, 0);
+    std::cout << "'nfs_root' directory fd: " << nfs_root_fd << "\n\n";
 
 
-    //READ DIR
-    //fixme leci -1 (juz w operation_msg_handler.cpp (serwer))
-//    mynfs_readdir(nfs_root_fd, readdir_result_buf, 1024);
-//    std::string nfs_root_content_str(readdir_result_buf);
-//    std::cout << "nfs_root content:\n\n" << readdir_result_buf << "\n\n";
+
+    mynfs_readdir(nfs_root_fd, readdir_result_buf, 1024);
+    std::string nfs_root_content_str(readdir_result_buf);
+    std::cout << "nfs_root content:\n\n" << readdir_result_buf << "\n\n";
 
 
-    //WRITE
-    //fixme leci -1 (juz w operation_msg_handler.h (serwer))
     int fileWriteFd = mynfs_open("127.0.0.1", "file_write_test_1.txt", O_WRONLY | O_CREAT, 1024);
     auto now = time(NULL);
     std::string nowStr = ctime(&now);

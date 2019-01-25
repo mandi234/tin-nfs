@@ -52,13 +52,15 @@ int mynfs_write(int fd, void* fileContent, void *respBuf, int count) {
 
     std::cout << "RECEIVED mynfs_write RESPONSE !" << std::endl;
 
-    memcpy(respBuf, res_message->buf, res_message->buf_len);
+    int buf_len = ntohl(res_message->buf_len);
+
+    memcpy(respBuf, res_message->buf, buf_len);
 
     return res_message->buf_len;
 }
 
 
-int mynfs_lseek(int fd, off_t offset, unsigned int whence, void *buf) {
+int mynfs_lseek(int fd, off_t offset, unsigned int whence) {
     RequestOperation req_message{};
     ResponseOperation *res_message;
     char response[4096];
@@ -67,9 +69,9 @@ int mynfs_lseek(int fd, off_t offset, unsigned int whence, void *buf) {
     req_message.function_id = OPERATION_MSG_REQUEST_LSEEK;
     req_message.descriptor = htonl(fd);
     req_message.token = htonl(global_token);
-    req_message.count = 1024; //todo pass count param?
-    req_message.offset = (uint32_t) offset; //todo uint32_t casting?
-    req_message.whence = whence;
+    req_message.count = htonl(1024); //todo pass count param?
+    req_message.offset = (uint32_t) htonl(offset); //todo uint32_t casting?
+    req_message.whence = htonl(whence);
 
     send_message_and_wait_for_response(
             (char*)global_host.c_str(),
@@ -81,10 +83,9 @@ int mynfs_lseek(int fd, off_t offset, unsigned int whence, void *buf) {
     );
 
     res_message = (ResponseOperation *) response;
+    int buf_len = ntohl(res_message->buf_len);
 
-    memcpy(buf, res_message->buf, res_message->buf_len);
-
-    return res_message->buf_len;
+    return buf_len;
 }
 
 
@@ -167,11 +168,11 @@ int mynfs_readdir(int fd, void *buf, int count) {
     res_message = (ResponseOperation *) response;
 
     std::cout << "RECEIVED mynfs_readdir RESPONSE ! " << std::endl;
-    std::cout<<res_message->buf << std::endl;
 
-    memcpy(buf, res_message->buf, res_message->buf_len);
+    int buf_len = ntohl(res_message->buf_len);
+    memcpy(buf, res_message->buf, buf_len);
 
-    return res_message->buf_len;
+    return buf_len;
 }
 
 
