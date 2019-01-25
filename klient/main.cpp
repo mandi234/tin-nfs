@@ -22,7 +22,6 @@ int main(int argc, char *argv[])
 
 
 
-    //OPEN
     //fixme leci -1 (juz w open_msg_handler.cpp (serwer))
     int configFd = mynfs_open("127.0.0.1", "config.txt", O_RDONLY, 0);
     std::cout << "configFd: " << configFd;
@@ -30,11 +29,10 @@ int main(int argc, char *argv[])
 
     mynfs_read(configFd, result_buf, 16796);
 
+
     std::cout << result_buf << std::endl;
-    //OPEN DIR
-    //fixme leci -1 (juz w open_msg_handler.cpp (serwer))
-    //todo setup relative dir path, "./../" prefix in client will be removed
-//    int nfs_root_fd = mynfs_opendir("127.0.0.1", "./../nfs_root", O_DIRECTORY | O_RDONLY, 0);
+
+  //  int nfs_root_fd = mynfs_opendir("127.0.0.1", "./../nfs_root", O_DIRECTORY | O_RDONLY, 0);
 //    std::cout << "'nfs_root' directory fd: " << nfs_root_fd << "\n\n";
 
 
@@ -47,7 +45,7 @@ int main(int argc, char *argv[])
 
     //WRITE
     //fixme leci -1 (juz w operation_msg_handler.h (serwer))
-    int fileWriteFd = mynfs_open("127.0.0.1", "file_write_test_1.txt", O_RDONLY, 1024);
+    int fileWriteFd = mynfs_open("127.0.0.1", "file_write_test_1.txt", O_WRONLY | O_CREAT, 1024);
     auto now = time(NULL);
     std::string nowStr = ctime(&now);
     std::string fileContent = "some new file content " + nowStr;

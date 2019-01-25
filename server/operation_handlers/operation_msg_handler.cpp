@@ -40,10 +40,8 @@ void OperationMsgHandler::writeFile(RequestOperation *request_operation, int len
     ssize_t bytesWrittenCount = write(fd, fileContent, strlen(fileContent));
 
     auto *response_operation = (ResponseOperation *) malloc(sizeof(ResponseOperation));
-    std::string responseMsg = "Bytes written count: " + std::to_string(bytesWrittenCount);
 
     response_operation->msg_id = OPERATION_MSG_RESPONSE_WRITE;
-    memcpy(response_operation->buf, responseMsg.c_str(), 1024);
     response_operation->buf_len = htonl(bytesWrittenCount);
     response_operation->error = htonl(errno);
 

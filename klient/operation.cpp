@@ -38,13 +38,13 @@ int mynfs_read(int fd, void *buf, int count) {
 int mynfs_write(int fd, void* fileContent, void *respBuf, int count) {
     RequestOperation req_message;
     ResponseOperation *res_message;
-    char response[4096];
+    char response[count];
     req_message.msg_id = MSG_REQUEST_OPERATION;
     req_message.function_id = OPERATION_MSG_REQUEST_WRITE;
     req_message.descriptor = htonl(fd);
     req_message.token = htonl(global_token);
     req_message.count = count;
-    memcpy(req_message.buf, (uint8_t *) fileContent, 1024);
+    memcpy(req_message.buf, (uint8_t *) fileContent, count);
 
     send_message_and_wait_for_response((char*)global_host.c_str(), (uint16_t)global_port, (uint8_t *) &req_message, sizeof(req_message), response, sizeof(ResponseOperation));
 
