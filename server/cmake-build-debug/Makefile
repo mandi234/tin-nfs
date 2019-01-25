@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/azablock/clion-2018.3.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /root/Downloads/clion-2018.3.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/azablock/clion-2018.3.3/bin/cmake/linux/bin/cmake -E remove -f
+RM = /root/Downloads/clion-2018.3.3/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/azablock/CLionProjects/tin-nfs/server
+CMAKE_SOURCE_DIR = /root/tin-nfs/server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug
+CMAKE_BINARY_DIR = /root/tin-nfs/server/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/azablock/clion-2018.3.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/root/Downloads/clion-2018.3.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/azablock/clion-2018.3.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/root/Downloads/clion-2018.3.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug/CMakeFiles /home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/tin-nfs/server/cmake-build-debug/CMakeFiles /root/tin-nfs/server/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/azablock/CLionProjects/tin-nfs/server/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/tin-nfs/server/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -149,33 +149,6 @@ auth.s: auth.cpp.s
 auth.cpp.s:
 	$(MAKE) -f CMakeFiles/kamil.dir/build.make CMakeFiles/kamil.dir/auth.cpp.s
 .PHONY : auth.cpp.s
-
-dirp/dirp_holder.o: dirp/dirp_holder.cpp.o
-
-.PHONY : dirp/dirp_holder.o
-
-# target to build an object file
-dirp/dirp_holder.cpp.o:
-	$(MAKE) -f CMakeFiles/kamil.dir/build.make CMakeFiles/kamil.dir/dirp/dirp_holder.cpp.o
-.PHONY : dirp/dirp_holder.cpp.o
-
-dirp/dirp_holder.i: dirp/dirp_holder.cpp.i
-
-.PHONY : dirp/dirp_holder.i
-
-# target to preprocess a source file
-dirp/dirp_holder.cpp.i:
-	$(MAKE) -f CMakeFiles/kamil.dir/build.make CMakeFiles/kamil.dir/dirp/dirp_holder.cpp.i
-.PHONY : dirp/dirp_holder.cpp.i
-
-dirp/dirp_holder.s: dirp/dirp_holder.cpp.s
-
-.PHONY : dirp/dirp_holder.s
-
-# target to generate assembly for a file
-dirp/dirp_holder.cpp.s:
-	$(MAKE) -f CMakeFiles/kamil.dir/build.make CMakeFiles/kamil.dir/dirp/dirp_holder.cpp.s
-.PHONY : dirp/dirp_holder.cpp.s
 
 main.o: main.cpp.o
 
@@ -378,9 +351,6 @@ help:
 	@echo "... auth.o"
 	@echo "... auth.i"
 	@echo "... auth.s"
-	@echo "... dirp/dirp_holder.o"
-	@echo "... dirp/dirp_holder.i"
-	@echo "... dirp/dirp_holder.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
